@@ -1,0 +1,77 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Color de fondo suave */
+}
+
+header {
+    background-color: #200216; 
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.description, .related-topics, .explore-topics {
+    margin: 20px;
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+
+    /* Estilos para el contenedor de la imagen y el texto */
+.image-text-container {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+}
+
+/* Estilos para la imagen */
+.mexico-image {
+    width: 25%; /* Ancho de la imagen */
+    float: left; /* Flotar a la izquierda */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
+
+/* Estilos para el texto */
+.description p {
+    font-size: 18px; /* Tamaño de fuente */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+}
+
+.description h2, .related-topics h2, .explore-topics h2 {
+    color: #000000; /* Azul verdoso pastel */
+    font-size: 24px; /* Tamaño de fuente más grande */
+    margin-bottom: 20px; /* Espacio entre encabezado y párrafo */
+}
+
+.description p {
+    font-size: 18px; /* Tamaño de fuente más grande */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+.related-topics ul {
+    list-style-type: none;
+}
+
+.related-topics li {
+    margin-bottom: 10px;
+}
+
+.explore-topics ul {
+    list-style-type: none;
+}
+
+.explore-topics li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #200216; /* Azul verdoso pastel */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
